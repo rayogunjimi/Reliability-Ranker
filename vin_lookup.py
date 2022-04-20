@@ -132,8 +132,8 @@ def get_vehicle_info(vin, write_buffer):
 
     write_buffer += ((vin or "").replace("," or ";","") + ",")
     write_buffer += ((make or "").replace("," or ";","") + ",")
-    write_buffer += ((model_year or "").replace("," or ";","") + ",")
     write_buffer += ((model or "").replace("," or ";","") + ",")
+    write_buffer += ((model_year or "").replace("," or ";","") + ",")
     write_buffer += ((series or "").replace("," or ";","") + ",")
     write_buffer += ((trim or "").replace("," or ";","") + ",")
     write_buffer += ((type or "").replace("," or ";","") + ",")
@@ -185,7 +185,7 @@ def main():
                 os.system(f"say {'There was an exception pulling a report. User input required.'}")
                 command = input(f"Problem getting report. Clearing buffer. VIN: {vehicle_id} Press enter or type skip. Command: ")
                 write_buffer = ""
-                if command.lower().strip() == "skip":
+                if command.lower().strip() == "skip" or "s":
                     break
                 else:
                     continue
