@@ -133,7 +133,7 @@ car_data <- car_data %>% mutate(detail_per_1kmile = (detail_count / (mileage/100
 
 car_data %>% head(50)
 
-most_reliable <- car_data %>% 
+reliability <- car_data %>% 
     subset(mileage > 25000 & repair_count > 0 & maintenance_count > 0 & maintenance_per_1kmile > 0.5) %>%
     group_by(make, model, year) %>%
     summarize(make, 
@@ -142,12 +142,44 @@ most_reliable <- car_data %>%
               avg_repairs_per_1kmile = mean(repairs_per_1kmile, na.rm = TRUE),
               avg_maintenance_per_1kmile = mean(maintenance_per_1kmile, na.rm = TRUE),
               avg_detail_per_1kmile = mean(detail_per_1kmile, na.rm = TRUE)) %>%
-    arrange(avg_repairs_per_1kmile) %>%
     subset(avg_repairs_per_1kmile > 0) %>%
     distinct()
 
-most_reliable %>% head(30)
-car_data %>% head(30)
+most_reliable <- reliability %>% 
+    arrange(avg_repairs_per_1kmile) %>%
+    head(15)
+
+most_reliable %>%
+    ggplot() +
+    aes(x = avg_maintenance_per_1kmile, y = avg_repairs_per_1kmile) +
+    geom_point()+
+    geom_text(
+    label=paste(most_reliable$year,most_reliable$make,most_reliable$model),
+    check_overlap = TRUE,
+    vjust="inward",
+    hjust="inward",
+    size=3.5)+
+    xlab("Maintenance per 1k Mile")+
+    ylab("Repairs per 1k Mile")+
+    ggtitle("The Most Reliable Cars")
+
+least_reliable <- reliability %>%
+    arrange(desc(avg_repairs_per_1kmile)) %>%
+    head(15)
+
+least_reliable %>%
+    ggplot() +
+    aes(x = avg_maintenance_per_1kmile, y = avg_repairs_per_1kmile) +
+    geom_point()+
+    geom_text(
+    label=paste(least_reliable$year,least_reliable$make,least_reliable$model),
+    check_overlap = TRUE,
+    vjust="inward",
+    hjust="inward",
+    size=3.5)+
+    xlab("Maintenance per 1k Mile")+
+    ylab("Repairs per 1k Mile")+
+    ggtitle("The Least Reliable Cars")
 
 car_data <- car_data %>% subset(!is.na(mileage) & !is.na(price) & price != 0 & mileage != 0)
 
