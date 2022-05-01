@@ -1,0 +1,966 @@
+,services,popularity,category
+1,Oil and filter changed,19541,maintenance
+2,Maintenance inspection completed,18154,inspection
+3,Pre-delivery inspection completed,7881,inspection
+4,Tires rotated,7490,miscellaneous
+5,Emissions or safety inspection performed,6207,inspection
+6,Tire condition and pressure checked,6086,inspection
+7,Vehicle washed/detailed,5877,detail
+8,Emissions inspection performed,5015,inspection
+9,Brakes checked,3828,inspection
+10,Fluids checked,3766,inspection
+11,Recommended maintenance performed,3512,maintenance
+12,Safety inspection performed,3232,inspection
+13,Battery/charging system checked,2648,assessment
+14,Cabin air filter replaced/cleaned,2116,maintenance
+15,Air filter replaced,2094,maintenance
+16,Wiper(s) replaced,1589,maintenance
+17,Tire(s) replaced,1572,maintenance
+18,Tire(s) balanced,1399,maintenance
+19,Four wheel alignment performed,1366,repair
+20,Alignment checked,906,assessment
+21,Four tires mounted,880,maintenance
+22,Brake fluid flushed/changed,873,repair
+23,One tire mounted,851,maintenance
+24,Front wiper blades/refills replaced,829,maintenance
+25,Drivability/performance checked,793,assessment
+26,Four tires balanced,793,maintenance
+27,Tire repaired,782,maintenance
+28,Wheel locks installed,761,maintenance
+29,Electrical system checked,744,assessment
+30,Front brake pads replaced,720,maintenance
+31,One tire balanced,659,miscellaneous
+32,10,623,miscellaneous
+33,Battery replaced,622,repair
+34,Alignment performed,595,repair
+35,Engine checked,593,assessment
+36,Nitrogen fill tires,565,miscellaneous
+37,Engine/powertrain computer/module checked,563,assessment
+38,Tire(s) mounted,506,maintenance
+39,Maintenance reminder reset,491,maintenance
+40,5,488,miscellaneous
+41,Steering/suspension checked,481,assessment
+42,Rear brake pads replaced,469,maintenance
+43,Two tires mounted,440,miscellaneous
+44,Body lubricated,420,repair
+45,Brakes serviced,420,repair
+46,Drive belts checked,397,assessment
+47,Wipers/washers checked,377,repair
+48,Two tires balanced,356,miscellaneous
+49,Body electrical system checked,355,assessment
+50,Inspection performed,338,maintenance
+51,Front brake rotor(s) replaced,308,maintenance
+52,Air filter checked,307,miscellaneous
+53,Rear wiper blade replaced,288,maintenance
+54,One tire replaced,285,maintenance
+55,Drain plug gasket replaced,276,repair
+56,VIN glass etching vin etched,258,miscellaneous
+57,Computer reprogrammed,256,repair
+58,Rear brake rotor(s) replaced,256,maintenance
+59,Anti-theft/keyless remote battery replaced,249,maintenance
+60,Lights checked,244,miscellaneous
+61,Wheels checked,239,assessment
+62,Four tires replaced,224,maintenance
+63,Computer(s) checked,222,assessment
+64,Exterior lights checked,222,maintenance
+65,Battery charged,217,repair
+66,Tire pressure monitoring system reset,213,repair
+67,Engine/powertrain computer/module reprogrammed,212,repair
+68,Emission system checked,208,repair
+69,Exterior trim checked,208,repair
+70,Cooling system checked,205,repair
+71,Brake rotor(s) resurfaced,204,maintenance
+72,Antifreeze/coolant flushed/changed,201,repair
+73,Light bulb(s) replaced,198,maintenance
+74,Windshield washer checked,198,assessment
+75,Brake pads replaced,186,maintenance
+76,Wheel(s) repaired,180,repair
+77,Floor mats installed,178,detail
+78,Spark plug(s) replaced,176,repair
+79,Rear brakes replaced,166,repair
+80,Interior trim checked,165,assessment
+81,Brake rotor(s) replaced,160,maintenance
+82,Accessories installed,154,detail
+83,Steering/suspension lubricated,150,maintenance
+84,Front brake rotor(s) resurfaced,149,maintenance
+85,Mud flaps/splash guards installed,144,detail
+86,A/C and heating system checked,141,assessment
+87,Fuel injection system flushed/serviced,141,repair
+88,Two tires replaced,138,maintenance
+89,Trim checked,135,assessment
+90,30,132,miscellaneous
+91,PCM reprogrammed,131,miscellaneous
+92,Transmission fluid changed,131,miscellaneous
+93,Antifreeze/coolant checked,130,miscellaneous
+94,Battery serviced,125,repair
+95,Front brakes replaced,122,repair
+96,Throttle body cleaned/serviced,120,repair
+97,Transmission checked,119,assessment
+98,Interior cleaned,115,detail
+99,Radio/sound system checked,115,assessment
+100,15,110,miscellaneous
+101,20,109,miscellaneous
+102,Front license plate bracket installed/replaced,104,detail
+103,Rear brakes serviced/adjusted,99,miscellaneous
+104,Windshield replaced,98,repair
+105,Exhaust system checked,97,assessment
+106,Tire pressure monitoring system serviced,93,repair
+107,Rear differential fluid flushed/changed,87,maintenance
+108,Two wheel alignment performed,85,repair
+109,Fuel system checked,80,assessment
+110,Key(s) (re) programmed,79,miscellaneous
+111,A/C refrigerant recharged,78,repair
+112,Engine/powertrain computer/module replaced,76,repair
+113,Transmission fluid flushed,76,maintenance
+114,A/C system checked,75,assessment
+115,Rear brake rotor(s) resurfaced,71,maintenance
+116,Anti-theft/keyless device/alarm installed,70,detail
+117,Tire valve stem(s)/core(s) replaced,70,repair
+118,Transmission serviced,70,repair
+119,Noise checked,69,assessment
+120,Paint protection applied,69,detail
+121,Induction system serviced,68,repair
+122,Glass checked,67,assessment
+123,Fuel system cleaned/serviced,64,repair
+124,Brake calipers cleaned/serviced,63,repair
+125,Tire checked,63,inspection
+126,Fuel filter replaced,62,repair
+127,Fuel pump replaced,59,repair
+128,Windshield repaired,59,repair
+129,Engine oil/fluid leak checked,58,assessment
+130,Transmission computer/module reprogrammed,58,repair
+131,Drive belt(s) replaced,57,repair
+132,New key(s) cut,56,detail
+133,7,55,miscellaneous
+134,Wheel lug nuts torqued,53,maintenance
+135,Brakes replaced,52,repair
+136,3,50,miscellaneous
+137,A/C system serviced,50,repair
+138,Headlight bulb(s) replaced,50,maintenance
+139,Floor mat(s) checked,49,inspection
+140,Water pump replaced,48,repair
+141,Axles checked,47,assessment
+142,Differential fluid flushed/changed,46,maintenance
+143,Engine electrical system checked,46,assessment
+144,Front brakes serviced,46,repair
+145,Tire pressure monitoring system checked,46,assessment
+146,Window tint installed,46,miscellaneous
+147,Differential serviced,45,miscellaneous
+148,Rear differential serviced,45,miscellaneous
+149,Driveshaft checked,44,miscellaneous
+150,Window(s) checked,44,miscellaneous
+151,Brake fluid checked,43,miscellaneous
+152,Power steering fluid flushed/changed,43,miscellaneous
+153,Engine serviced,41,miscellaneous
+154,Fabric protection applied,41,miscellaneous
+155,Serpentine belt replaced,41,miscellaneous
+156,Three tires mounted,41,miscellaneous
+157,Front wheel bearing(s)/hub(s) replaced,40,miscellaneous
+158,Headlight(s) replaced,39,miscellaneous
+159,Instrument cluster checked,38,miscellaneous
+160,Parking brake adjusted,38,miscellaneous
+161,Exterior light bulb(s) replaced,37,miscellaneous
+162,Oxygen sensor replaced,37,miscellaneous
+163,Radio/sound system (re) programmed,36,miscellaneous
+164,Power steering checked,35,miscellaneous
+165,Radio code retrieved,35,miscellaneous
+166,Seat(s) checked,35,miscellaneous
+167,Brake light bulb(s) replaced,34,miscellaneous
+168,Seat or seat upholstery repaired,34,miscellaneous
+169,Carpet protection installed,33,miscellaneous
+170,Rear shock absorber(s) replaced,33,miscellaneous
+171,Wheel(s) replaced,33,miscellaneous
+172,Tire pressure sensor replaced,32,miscellaneous
+173,40,31,miscellaneous
+174,Airbag system checked,31,miscellaneous
+175,Exhaust repaired,31,miscellaneous
+176,Ignition coil(s) replaced,31,miscellaneous
+177,License plate light bulb(s) replaced,31,miscellaneous
+178,Wiring repaired,31,miscellaneous
+179,Alternator replaced,30,miscellaneous
+180,Cargo tray/mat installed,30,miscellaneous
+181,Cooling system serviced,30,miscellaneous
+182,Door edge guards installed,30,miscellaneous
+183,Intake silencer serviced,30,miscellaneous
+184,Sensor replaced,30,miscellaneous
+185,Sway bar link(s) replaced,30,miscellaneous
+186,Cabin air filter checked,29,miscellaneous
+187,Door locks checked,29,miscellaneous
+188,Ignition system checked,29,miscellaneous
+189,Fuse(s) replaced,28,miscellaneous
+190,Three tires balanced,28,miscellaneous
+191,Tune-up performed,28,miscellaneous
+192,Front differential fluid flushed/changed,27,miscellaneous
+193,Glass protection applied,27,miscellaneous
+194,Outside mirror replaced/repaired,27,miscellaneous
+195,Transfer case fluid flushed/changed,27,miscellaneous
+196,Bed liner installed,26,miscellaneous
+197,Body computer/module reprogrammed,26,miscellaneous
+198,Differential checked,26,miscellaneous
+199,Parking brake system checked,26,miscellaneous
+200,Wheel locks removed,26,miscellaneous
+201,Automatic transmission serviced,25,miscellaneous
+202,Brake drum(s) resurfaced,25,miscellaneous
+203,Evaporative emissions vent purge valve replaced,25,miscellaneous
+204,Front strut(s) replaced,25,miscellaneous
+205,GPS/Navigation module/computer reprogrammed,25,miscellaneous
+206,Running boards/tubes/steps installed,25,miscellaneous
+207,Trim repaired,25,miscellaneous
+208,Brake system bled,24,miscellaneous
+209,Horns checked,24,miscellaneous
+210,Remote start installed,24,miscellaneous
+211,Right airbag assembly replaced,24,miscellaneous
+212,Seatbelts checked,24,miscellaneous
+213,Brake caliper(s) replaced,23,miscellaneous
+214,Evaporator case drain hose serviced,23,miscellaneous
+215,No-start/hard start condition checked,23,miscellaneous
+216,Steering wheel centered,23,miscellaneous
+217,Airbag computer/module reprogrammed,22,miscellaneous
+218,Engine mount(s) replaced,22,miscellaneous
+219,GPS/Navigation system checked,22,miscellaneous
+220,Lug nut(s)/bolt(s) replaced,22,miscellaneous
+221,Starter replaced,22,miscellaneous
+222,Tail light bulb(s) replaced,22,miscellaneous
+223,Thermostat replaced,22,miscellaneous
+224,Tire(s) changed,22,miscellaneous
+225,Headlights adjusted,21,miscellaneous
+226,Transfer case serviced,21,miscellaneous
+227,Valve cover gasket(s) replaced,21,miscellaneous
+228,Back-up camera installed,20,miscellaneous
+229,Body water leak checked,20,miscellaneous
+230,Brake pad sensor(s) replaced,20,miscellaneous
+231,Glass repaired,20,miscellaneous
+232,Oil pan drain plug replaced,20,miscellaneous
+233,Radiator replaced,20,miscellaneous
+234,Remote(s) programmed,20,miscellaneous
+235,Roof rack installed,20,miscellaneous
+236,Transfer module/computer reprogrammed,20,miscellaneous
+237,Body electrical wiring repaired,19,miscellaneous
+238,Mirror(s) checked,19,miscellaneous
+239,Pinstripe(s) installed,19,miscellaneous
+240,Service contract claim,19,miscellaneous
+241,Shock absorber(s) replaced,19,miscellaneous
+242,Stabilizer bar links replaced,19,miscellaneous
+243,60,18,miscellaneous
+244,Anti-theft/keyless system checked,18,miscellaneous
+245,Blower motor replaced/repaired,18,miscellaneous
+246,Emblem replaced,18,miscellaneous
+247,Emissions system serviced,18,miscellaneous
+248,Interior trim repaired,18,miscellaneous
+249,Rear brake caliper(s) replaced,18,miscellaneous
+250,Spark plugs cleaned and gap adjusted,18,miscellaneous
+251,Undercoating/rustproofing applied,18,miscellaneous
+252,80,17,miscellaneous
+253,Control arm(s) replaced,17,miscellaneous
+254,Fuel filler cap replaced,17,miscellaneous
+255,Left airbag assembly replaced,17,miscellaneous
+256,Ride height system repaired/adjusted,17,miscellaneous
+257,Sunroof checked,17,miscellaneous
+258,Wheel bearing(s)/hub(s) replaced,17,miscellaneous
+259,Engine oil cooler line(s) repaired/replaced,16,miscellaneous
+260,Engine oil system flushed,16,miscellaneous
+261,Fuel injection system checked,16,miscellaneous
+262,PCV valve replaced,16,miscellaneous
+263,Rear brake shoes replaced,16,miscellaneous
+264,Strut(s) replaced,16,miscellaneous
+265,Trailer hitch installed,16,miscellaneous
+266,Transmission cooler line(s) repaired/replaced,16,miscellaneous
+267,A/C compressor replaced,15,miscellaneous
+268,Roof rack rails installed,15,miscellaneous
+269,Timing belt replaced,15,miscellaneous
+270,Tonneau cover installed,15,miscellaneous
+271,Wheel bearings checked,15,miscellaneous
+272,A/C condenser replaced,14,miscellaneous
+273,ABS system checked,14,miscellaneous
+274,ABS/TCS module reprogrammed,14,miscellaneous
+275,Brake line(s) replaced/repaired,14,miscellaneous
+276,Lower control arm(s) replaced,14,miscellaneous
+277,Mirror replaced,14,miscellaneous
+278,Muffler replaced,14,miscellaneous
+279,One wheel replaced,14,miscellaneous
+280,Radio replaced,14,miscellaneous
+281,Sunroof serviced,14,miscellaneous
+282,Tire pressure sensor reprogrammed,14,miscellaneous
+283,Transmission replaced,14,miscellaneous
+284,Brake light switch replaced,13,miscellaneous
+285,Catalytic converter replaced,13,miscellaneous
+286,Console repaired,13,miscellaneous
+287,High mount brake light bulb replaced,13,miscellaneous
+288,Ignition lock cylinder replaced,13,miscellaneous
+289,Oil pan gasket replaced,13,miscellaneous
+290,Power steering motor replaced,13,miscellaneous
+291,Power steering system serviced,13,miscellaneous
+292,Radio/sound system repaired,13,miscellaneous
+293,Splash shield replaced/repaired,13,miscellaneous
+294,Steering wheel replaced,13,miscellaneous
+295,Tail light assembly replaced,13,miscellaneous
+296,Tie rod end(s) replaced,13,miscellaneous
+297,Tire(s) dismounted,13,miscellaneous
+298,Vibration checked,13,miscellaneous
+299,25,12,miscellaneous
+300,Antenna replaced,12,miscellaneous
+301,Anti-theft/keyless remote(s) replaced,12,miscellaneous
+302,Axle seal(s) replaced,12,miscellaneous
+303,Clutch checked,12,miscellaneous
+304,CV boot(s) checked,12,miscellaneous
+305,Fuel injector(s) replaced,12,miscellaneous
+306,Intake manifold gasket(s) replaced,12,miscellaneous
+307,Paint sealant/protection checked,12,miscellaneous
+308,Radiator checked,12,miscellaneous
+309,Three tires replaced,12,miscellaneous
+310,Tires serviced,12,miscellaneous
+311,Transmission fluid/oil leak checked,12,miscellaneous
+312,Camshaft position sensor replaced,11,miscellaneous
+313,Decarbon service completed,11,miscellaneous
+314,Fuel tank replaced,11,miscellaneous
+315,Ignition switch replaced,11,miscellaneous
+316,Rear wheel bearing(s)/hub(s) replaced,11,miscellaneous
+317,Sound system component installed,11,miscellaneous
+318,Spare tire installed,11,miscellaneous
+319,Steering gear replaced,11,miscellaneous
+320,Suspension serviced,11,miscellaneous
+321,Sway bar bushing(s) replaced,11,miscellaneous
+322,Alternator checked,10,miscellaneous
+323,Body computer/module replaced,10,miscellaneous
+324,Coolant reservoir replaced,10,miscellaneous
+325,Cup holder replaced,10,miscellaneous
+326,Evaporative emissions vent solenoid replaced,10,miscellaneous
+327,Headliner removed and reinstalled,10,miscellaneous
+328,Hood latch replaced,10,miscellaneous
+329,Instrument cluster reprogrammed,10,miscellaneous
+330,Radio speaker(s) replaced,10,miscellaneous
+331,Thrust angle alignment performed,10,miscellaneous
+332,Wiper arm(s) replaced,10,miscellaneous
+333,45,9,miscellaneous
+334,Air filter cleaned,9,miscellaneous
+335,Body side moldings installed,9,miscellaneous
+336,Door trim panel replaced/repaired,9,miscellaneous
+337,Engine cleaned,9,miscellaneous
+338,Exhaust pipe replaced,9,miscellaneous
+339,Fog light bulb(s) replaced,9,miscellaneous
+340,Front brake caliper(s) replaced,9,miscellaneous
+341,Fuel pump module replaced,9,miscellaneous
+342,High mount brake light assembly replaced,9,miscellaneous
+343,Idler pulley replaced,9,miscellaneous
+344,Oil pressure sender/switch replaced,9,miscellaneous
+345,Sensing and diagnostic module reprogrammed,9,miscellaneous
+346,Spark plug wires replaced,9,miscellaneous
+347,Steering damper replaced,9,miscellaneous
+348,Sunvisor(s) replaced/repaired,9,miscellaneous
+349,Transmission filter replaced,9,miscellaneous
+350,Wheel covers/trim rings installed,9,miscellaneous
+351,Window regulator(s) replaced,9,miscellaneous
+352,Window vent visors installed,9,miscellaneous
+353,A/C system flushed,8,miscellaneous
+354,Axle(s) replaced,8,miscellaneous
+355,Battery cable(s) replaced,8,miscellaneous
+356,Cargo net installed,8,miscellaneous
+357,Charcoal/vapor canister replaced,8,miscellaneous
+358,Door handle replaced,8,miscellaneous
+359,Doors checked,8,miscellaneous
+360,GPS/navigation system installed,8,miscellaneous
+361,Headlights serviced,8,miscellaneous
+362,Hood operation checked,8,miscellaneous
+363,Inside rear view mirror replaced,8,miscellaneous
+364,Mass air flow sensor replaced,8,miscellaneous
+365,Power steering hose(s)/line(s) replaced,8,miscellaneous
+366,Radiator hose(s) replaced,8,miscellaneous
+367,Radio installed,8,miscellaneous
+368,Seatbelt assembly replaced,8,miscellaneous
+369,Sunroof drain hoses serviced,8,miscellaneous
+370,Switch replaced/repaired,8,miscellaneous
+371,Turn signal bulb(s) replaced,8,miscellaneous
+372,Wing/spoiler installed,8,miscellaneous
+373,35,7,miscellaneous
+374,A/C leak checked,7,miscellaneous
+375,ABS module replaced,7,miscellaneous
+376,Body computer/module checked,7,miscellaneous
+377,Brake shoes replaced,7,miscellaneous
+378,Clutch replaced,7,miscellaneous
+379,Computer module replaced,7,miscellaneous
+380,Cooling system hoses checked,7,miscellaneous
+381,Dash gauges checked,7,miscellaneous
+382,Evaporative emission system checked,7,miscellaneous
+383,Front brake hose(s) replaced,7,miscellaneous
+384,Front door trim panel replaced/repaired,7,miscellaneous
+385,Fuel level sending unit replaced,7,miscellaneous
+386,Fuel line/hose replaced,7,miscellaneous
+387,Fuse block replaced,7,miscellaneous
+388,Horn replaced,7,miscellaneous
+389,Inside door handle replaced,7,miscellaneous
+390,Instrument panel repaired,7,miscellaneous
+391,Oil consumption test performed,7,miscellaneous
+392,Seat cover replaced,7,miscellaneous
+393,Seat installed,7,miscellaneous
+394,Steering shaft replaced/repaired,7,miscellaneous
+395,Tailgate/hatch latch replaced,7,miscellaneous
+396,Torque converter replaced,7,miscellaneous
+397,Window motor(s) replaced,7,miscellaneous
+398,Window repaired,7,miscellaneous
+399,Wipers/washers serviced,7,miscellaneous
+400,Wiring harness installed,7,miscellaneous
+401,A/C hose/line replaced,6,miscellaneous
+402,Accessory removed,6,miscellaneous
+403,Airbag clockspring/reel replaced,6,miscellaneous
+404,Battery charger installed,6,miscellaneous
+405,Cylinder head replaced,6,miscellaneous
+406,Drive belt tensioner replaced,6,miscellaneous
+407,Drivetrain checked,6,miscellaneous
+408,Engine compression checked,6,miscellaneous
+409,Fog light assembly replaced,6,miscellaneous
+410,Front door latch replaced,6,miscellaneous
+411,Front seat cover replaced,6,miscellaneous
+412,Front seat replaced,6,miscellaneous
+413,Front shock absorber(s) replaced,6,miscellaneous
+414,Fuel filler cap secured,6,miscellaneous
+415,Fuel filler neck replaced,6,miscellaneous
+416,Fuel system leak checked/repaired,6,miscellaneous
+417,Internal transmission repaired,6,miscellaneous
+418,Seatbelt buckle replaced,6,miscellaneous
+419,Tailpipe replaced,6,miscellaneous
+420,Telephone repaired,6,miscellaneous
+421,Tire pressure sensor checked,6,miscellaneous
+422,Transaxle checked,6,miscellaneous
+423,Wheel lug stud(s) replaced,6,miscellaneous
+424,Wheel speed sensor(s) replaced/repaired,6,miscellaneous
+425,50,5,miscellaneous
+426,Accessories repaired/replaced,5,miscellaneous
+427,Airbag computer/module replaced,5,miscellaneous
+428,Ball joint(s) replaced,5,miscellaneous
+429,Blend/diverter door actuator replaced,5,miscellaneous
+430,Blower motor resistor replaced,5,miscellaneous
+431,Brake master cylinder replaced/repaired,5,miscellaneous
+432,Chrome/alloy wheels installed,5,miscellaneous
+433,Coolant temperature sensor replaced,5,miscellaneous
+434,Cooling system hose(s) replaced,5,miscellaneous
+435,Door latch repaired/replaced,5,miscellaneous
+436,Door lock actuator(s) replaced,5,miscellaneous
+437,Drive belts adjusted,5,miscellaneous
+438,Exhaust manifold gasket replaced,5,miscellaneous
+439,Exterior trim repaired,5,miscellaneous
+440,Fender liner replaced/repaired,5,miscellaneous
+441,Fuel filler door replaced/repaired,5,miscellaneous
+442,Fuel pressure checked,5,miscellaneous
+443,Glove box repaired/replaced,5,miscellaneous
+444,GPS/Navigation system serviced,5,miscellaneous
+445,Heated oxygen sensor replaced,5,miscellaneous
+446,Heated seat repaired,5,miscellaneous
+447,Hood adjusted,5,miscellaneous
+448,Intake manifold replaced,5,miscellaneous
+449,Mud flaps/splash guards repaired,5,miscellaneous
+450,Outside mirror glass replaced,5,miscellaneous
+451,Power steering pump replaced,5,miscellaneous
+452,Radiator cap replaced,5,miscellaneous
+453,Radiator hose clamp replaced,5,miscellaneous
+454,Steering column replaced,5,miscellaneous
+455,Sunroof replaced/repaired,5,miscellaneous
+456,Thermostat housing/gasket replaced,5,miscellaneous
+457,Timing belt tensioner/idler checked,5,miscellaneous
+458,Tire(s) serviced,5,miscellaneous
+459,Transfer case operation checked,5,miscellaneous
+460,Transmission computer/module replaced,5,miscellaneous
+461,Transmission removed and reinstalled,5,miscellaneous
+462,Turn signal switch replaced,5,miscellaneous
+463,Undercoating/rustproofing inspected,5,miscellaneous
+464,Valve body replaced,5,miscellaneous
+465,Washer pump replaced,5,miscellaneous
+466,Weatherstrip repaired,5,miscellaneous
+467,Window switch replaced,5,miscellaneous
+468,Wiper switch replaced,5,miscellaneous
+469,90,4,miscellaneous
+470,A/C and heating control assembly replaced,4,miscellaneous
+471,Amplifier/sub-woofer installed,4,miscellaneous
+472,Battery cable terminal end(s) replaced,4,miscellaneous
+473,Brake hose(s) replaced,4,miscellaneous
+474,Brake pedal pad replaced,4,miscellaneous
+475,Brake wheel cylinder(s) replaced,4,miscellaneous
+476,Camshaft(s) replaced/repaired,4,miscellaneous
+477,CV boot(s) replaced,4,miscellaneous
+478,Cylinder head gasket(s) replaced,4,miscellaneous
+479,Decals/letters/name plates replaced,4,miscellaneous
+480,Door latch adjusted,4,miscellaneous
+481,Door lock(s) replaced/repaired,4,miscellaneous
+482,Drive belt tensioner pulley replaced,4,miscellaneous
+483,Engine timing/front cover gasket replaced,4,miscellaneous
+484,Front axle(s) replaced/repaired,4,miscellaneous
+485,Front door adjusted,4,miscellaneous
+486,Fuel pressure sensor replaced,4,miscellaneous
+487,Hood release cable replaced,4,miscellaneous
+488,Inside rear view mirror remounted,4,miscellaneous
+489,Leak detection pump replaced,4,miscellaneous
+490,Liftgate/tailgate door adjusted,4,miscellaneous
+491,Lower radiator hose replaced,4,miscellaneous
+492,Molding replaced,4,miscellaneous
+493,Occupant sensor replaced,4,miscellaneous
+494,Oil pan replaced/repaired,4,miscellaneous
+495,Outer tie rod(s) replaced,4,miscellaneous
+496,Pinion seal(s) replaced,4,miscellaneous
+497,Power outlet replaced/repaired,4,miscellaneous
+498,Pre-purchase inspection completed,4,miscellaneous
+499,Radiator fan operation checked,4,miscellaneous
+500,Radiator fan replaced,4,miscellaneous
+501,Rear window defogger repaired,4,miscellaneous
+502,Rear wiper motor replaced,4,miscellaneous
+503,Refrigerant added for leak check checked,4,miscellaneous
+504,Replacement part painted,4,miscellaneous
+505,Seat memory computer/module checked,4,miscellaneous
+506,Shift lever knob/handle replaced,4,miscellaneous
+507,Shift lever/assembly replaced,4,miscellaneous
+508,Shift linkage checked,4,miscellaneous
+509,Shifter cable replaced,4,miscellaneous
+510,Stabilizer bar bushings replaced,4,miscellaneous
+511,Stabilizer bar replaced,4,miscellaneous
+512,Tailgate/trunk lock replaced,4,miscellaneous
+513,Tailpipe extension(s) installed,4,miscellaneous
+514,Tie rod(s) replaced,4,miscellaneous
+515,Transaxle replaced,4,miscellaneous
+516,Vacuum pump replaced,4,miscellaneous
+517,Wind noise checked,4,miscellaneous
+518,Windshield calibrated,4,miscellaneous
+519,22,3,miscellaneous
+520,A/C evaporator replaced,3,miscellaneous
+521,Accelerator linkage/bracket checked,3,miscellaneous
+522,Air suspension compressor replaced/repaired,3,miscellaneous
+523,Air vent/outlet replaced,3,miscellaneous
+524,Air/water leak checked,3,miscellaneous
+525,Anti-theft computer/module replaced,3,miscellaneous
+526,Armrest replaced,3,miscellaneous
+527,Automatic parking assist programmed,3,miscellaneous
+528,Automatic transmission pan gasket replaced,3,miscellaneous
+529,Body side molding(s) replaced,3,miscellaneous
+530,Brake control module replaced,3,miscellaneous
+531,Camshaft adjuster solenoid replaced,3,miscellaneous
+532,Camshaft position sensor adjusted,3,miscellaneous
+533,CD player/changer reinstalled,3,miscellaneous
+534,Control arm bushing(s) replaced,3,miscellaneous
+535,Cooling system bled,3,miscellaneous
+536,Crankshaft oil seal(s) replaced,3,miscellaneous
+537,Crankshaft position sensor replaced,3,miscellaneous
+538,CV joint(s) replaced,3,miscellaneous
+539,Differential fluid checked,3,miscellaneous
+540,Door assembly aligned,3,miscellaneous
+541,Door weatherstrip repaired,3,miscellaneous
+542,Driveshaft universal joint(s) replaced,3,miscellaneous
+543,Electrical and lighting system serviced,3,miscellaneous
+544,Engine cover removed and reinstalled,3,miscellaneous
+545,Engine idle checked,3,miscellaneous
+546,Engine oil cooler replaced/repaired,3,miscellaneous
+547,Exhaust manifold replaced,3,miscellaneous
+548,Exhaust pipe seal replaced,3,miscellaneous
+549,Exhaust replaced,3,miscellaneous
+550,Front carpet replaced,3,miscellaneous
+551,Front door molding replaced,3,miscellaneous
+552,Front seat cushion replaced,3,miscellaneous
+553,Front turn signal/parking bulb(s) replaced,3,miscellaneous
+554,Fuel filler door adjusted,3,miscellaneous
+555,Fuel rail replaced,3,miscellaneous
+556,Fuel tank drained and cleaned,3,miscellaneous
+557,Grille replaced/repaired,3,miscellaneous
+558,Heat shield secured,3,miscellaneous
+559,Heater core replaced,3,miscellaneous
+560,High voltage battery checked,3,miscellaneous
+561,Hub cap(s)/wheel cover(s) replaced,3,miscellaneous
+562,Information display unit replaced,3,miscellaneous
+563,Instrument cluster replaced/repaired,3,miscellaneous
+564,Interior accessory installed,3,miscellaneous
+565,Interior protective coating applied,3,miscellaneous
+566,Knock sensor(s) replaced,3,miscellaneous
+567,Left tail light assembly replaced,3,miscellaneous
+568,Lock cylinder(s) replaced,3,miscellaneous
+569,Lower ball joint(s) replaced,3,miscellaneous
+570,Lower control arm bushings replaced,3,miscellaneous
+571,Multi-function switch replaced,3,miscellaneous
+572,Parking brake shoes/pads replaced,3,miscellaneous
+573,PCV hose replaced,3,miscellaneous
+574,Power door/liftgate motor replaced,3,miscellaneous
+575,Power steering fluid leak checked,3,miscellaneous
+576,Radiator/condenser fan motor replaced,3,miscellaneous
+577,Rear differential pinion seal replaced,3,miscellaneous
+578,Right tail light assembly replaced,3,miscellaneous
+579,Right tie rod end replaced,3,miscellaneous
+580,Seat memory computer/module replaced,3,miscellaneous
+581,Serpentine tensioner replaced,3,miscellaneous
+582,Socket(s) repaired/replaced,3,miscellaneous
+583,Steering angle sensor initialized,3,miscellaneous
+584,Throttle body replaced,3,miscellaneous
+585,Throttle position sensor replaced,3,miscellaneous
+586,Timing chain replaced,3,miscellaneous
+587,Tire jack replaced,3,miscellaneous
+588,Tow package installed,3,miscellaneous
+589,Trailer hitch wiring installed,3,miscellaneous
+590,Transaxle overhauled,3,miscellaneous
+591,Transfer case overhauled/replaced,3,miscellaneous
+592,Transmission seal(s) replaced,3,miscellaneous
+593,Trunk adjusted,3,miscellaneous
+594,Upper ball joint(s) replaced,3,miscellaneous
+595,Upper control arm(s) replaced,3,miscellaneous
+596,Upper radiator hose replaced,3,miscellaneous
+597,Valve cover(s) replaced,3,miscellaneous
+598,Washer nozzle(s) replaced,3,miscellaneous
+599,Wheel bearings repacked,3,miscellaneous
+600,Window(s) serviced,3,miscellaneous
+601,Wing/spoiler replaced/repaired,3,miscellaneous
+602,Wiper motor replaced/repaired,3,miscellaneous
+603,000 mile service performed,2,miscellaneous
+604,55,2,miscellaneous
+605,75,2,miscellaneous
+606,A/C compressor repaired,2,miscellaneous
+607,A/C hose/line seals replaced,2,miscellaneous
+608,Adaptive cruise control sensor replaced,2,miscellaneous
+609,Air suspension checked,2,miscellaneous
+610,Antenna serviced/repaired,2,miscellaneous
+611,Anti-theft/keyless device/alarm removed,2,miscellaneous
+612,Ashtray replaced,2,miscellaneous
+613,Battery cable connection bolt replaced,2,miscellaneous
+614,Battery tray/cover/hold-down replaced,2,miscellaneous
+615,Blower motor operation checked,2,miscellaneous
+616,Brake drum(s) replaced,2,miscellaneous
+617,Brake fluid reservoir replaced/repaired,2,miscellaneous
+618,Bug shield installed,2,miscellaneous
+619,Camshaft seal(s) replaced,2,miscellaneous
+620,Catalyst monitor sensor replaced,2,miscellaneous
+621,Clock replaced,2,miscellaneous
+622,Clutch assembly replaced,2,miscellaneous
+623,Clutch master cylinder replaced,2,miscellaneous
+624,Clutch pressure plate replaced,2,miscellaneous
+625,Clutch slave cylinder replaced,2,miscellaneous
+626,Collision mitigation system checked,2,miscellaneous
+627,Collision mitigation system installed,2,miscellaneous
+628,Console armrest replaced,2,miscellaneous
+629,Convertible top operation checked,2,miscellaneous
+630,Core/freeze plug replaced,2,miscellaneous
+631,Cowl/firewall panel resealed,2,miscellaneous
+632,Cruise control checked,2,miscellaneous
+633,Diesel particulate filter replaced,2,miscellaneous
+634,Door sill plate/trim replaced,2,miscellaneous
+635,Door trim panel adjusted,2,miscellaneous
+636,Door weatherstrip replaced,2,miscellaneous
+637,Drive belts serviced,2,miscellaneous
+638,Driveshaft serviced,2,miscellaneous
+639,EGR system serviced,2,miscellaneous
+640,EGR valve replaced,2,miscellaneous
+641,Engine removed to complete repair,2,miscellaneous
+642,Engine wiring harness repaired,2,miscellaneous
+643,Exhaust flex pipe replaced,2,miscellaneous
+644,Exhaust secured,2,miscellaneous
+645,Exhaust system replaced,2,miscellaneous
+646,Fender liner adjusted/secured,2,miscellaneous
+647,Floor mats replaced,2,miscellaneous
+648,Flywheel/flexplate replaced,2,miscellaneous
+649,Front coil spring(s) replaced,2,miscellaneous
+650,Front exhaust pipe replaced,2,miscellaneous
+651,Front seat adjuster replaced,2,miscellaneous
+652,Front spoiler replaced/repaired,2,miscellaneous
+653,Front suspension checked,2,miscellaneous
+654,Front window regulator(s) replaced,2,miscellaneous
+655,Front window run channel replaced/repaired,2,miscellaneous
+656,Fuel filler hose/pipe replaced,2,miscellaneous
+657,Fuel pressure regulator replaced,2,miscellaneous
+658,Fuel tank removed and reinstalled,2,miscellaneous
+659,Gearshift indicator adjusted,2,miscellaneous
+660,Glow plug(s) replaced,2,miscellaneous
+661,GPS removed,2,miscellaneous
+662,Heater control valve replaced,2,miscellaneous
+663,Heater hose(s) replaced,2,miscellaneous
+664,Hood deflector installed,2,miscellaneous
+665,Hood insulator replaced,2,miscellaneous
+666,Idle control valve/motor replaced,2,miscellaneous
+667,Induction system checked,2,miscellaneous
+668,Inner tie rod(s) replaced,2,miscellaneous
+669,Inspection completed,2,miscellaneous
+670,Interior lights checked,2,miscellaneous
+671,Interior roof console replaced,2,miscellaneous
+672,Leather installed,2,miscellaneous
+673,Left front seatbelt buckle replaced,2,miscellaneous
+674,Left front window regulator replaced,2,miscellaneous
+675,Left front window switch replaced,2,miscellaneous
+676,Left window regulator replaced,2,miscellaneous
+677,Liftgate/tailgate support strut(s) replaced,2,miscellaneous
+678,Parking assist sensor replaced,2,miscellaneous
+679,Parking sensor replaced,2,miscellaneous
+680,PCV system checked,2,miscellaneous
+681,Piston(s) replaced,2,miscellaneous
+682,Power seat switch replaced,2,miscellaneous
+683,Power steering cooler replaced,2,miscellaneous
+684,Power window computer/module reprogrammed,2,miscellaneous
+685,Quarter glass replaced,2,miscellaneous
+686,Rain sensor replaced,2,miscellaneous
+687,Rear crankshaft oil seal replaced,2,miscellaneous
+688,Rear driveshaft replaced,2,miscellaneous
+689,Rear seatbelt retractor replaced,2,miscellaneous
+690,Rear strut(s)/insert cartridge(s) replaced,2,miscellaneous
+691,Rear window regulator(s) replaced,2,miscellaneous
+692,Rear window repaired,2,miscellaneous
+693,Rear window replaced,2,miscellaneous
+694,Resonator replaced,2,miscellaneous
+695,Reverse light bulb(s) replaced,2,miscellaneous
+696,Right sunvisor replaced,2,miscellaneous
+697,Running board(s)/step(s) replaced/repaired,2,miscellaneous
+698,Seat adjuster handle replaced,2,miscellaneous
+699,Skid plate installed,2,miscellaneous
+700,Spare tire cover installed,2,miscellaneous
+701,Tailgate lock/latch repaired,2,miscellaneous
+702,Timing chain tensioner/guide replaced,2,miscellaneous
+703,Tow hook cover(s) installed,2,miscellaneous
+704,Track bar replaced,2,miscellaneous
+705,Traction control system checked,2,miscellaneous
+706,Trailer hitch wiring repaired,2,miscellaneous
+707,Transfer case fluid checked,2,miscellaneous
+708,Transfer case module/computer replaced,2,miscellaneous
+709,Transfer case removed to complete repairs,2,miscellaneous
+710,Transfer case replaced,2,miscellaneous
+711,Transfer selector switch replaced,2,miscellaneous
+712,Transmission computer/module checked,2,miscellaneous
+713,Transmission mount(s) replaced,2,miscellaneous
+714,Transmission shift solenoid(s) replaced,2,miscellaneous
+715,Trunk latch replaced,2,miscellaneous
+716,Vacuum hose(s) replaced,2,miscellaneous
+717,Vehicle reconditioned,2,miscellaneous
+718,Washer fluid level sensor replaced,2,miscellaneous
+719,Water separator serviced,2,miscellaneous
+720,Windshield resealed,2,miscellaneous
+721,120,1,miscellaneous
+722,A/C and heating temperature control checked,1,miscellaneous
+723,A/C and heating temperature control replaced,1,miscellaneous
+724,A/C compressor serviced,1,miscellaneous
+725,A/C installed,1,miscellaneous
+726,A/C receiver/dryer replaced,1,miscellaneous
+727,A/C relay replaced,1,miscellaneous
+728,ABS fluid flushed/changed,1,miscellaneous
+729,ABS modulator replaced,1,miscellaneous
+730,ABS power unit replaced,1,miscellaneous
+731,ABS sensor replaced,1,miscellaneous
+732,Accelerator pedal replaced,1,miscellaneous
+733,Adaptive cruise control checked,1,miscellaneous
+734,Adaptive cruise control updated,1,miscellaneous
+735,Air brakes checked,1,miscellaneous
+736,Air conditioning system installed,1,miscellaneous
+737,Air intake hose replaced,1,miscellaneous
+738,AIR valve replaced,1,miscellaneous
+739,Airbag replaced,1,miscellaneous
+740,Antenna installed,1,miscellaneous
+741,Armrest repaired,1,miscellaneous
+742,Ashtray repaired,1,miscellaneous
+743,Assist handle replaced,1,miscellaneous
+744,Automatic transmission cooler flushed,1,miscellaneous
+745,Axle(s) serviced,1,miscellaneous
+746,Back-up camera replaced,1,miscellaneous
+747,Blind spot warning sensor replaced,1,miscellaneous
+748,Blower motor/compressor control module replaced,1,miscellaneous
+749,Brake booster replaced/repaired,1,miscellaneous
+750,Brake cable replaced,1,miscellaneous
+751,Brake light switch adjusted,1,miscellaneous
+752,Brake master cylinder cap replaced,1,miscellaneous
+753,Brake pedal assembly replaced/repaired,1,miscellaneous
+754,Brake pedal position sensor replaced,1,miscellaneous
+755,Breather filter replaced,1,miscellaneous
+756,Cargo cover installed,1,miscellaneous
+757,Carpet replaced/repaired,1,miscellaneous
+758,Carpet/floor mats secured,1,miscellaneous
+759,Catalytic converter checked,1,miscellaneous
+760,CD player installed,1,miscellaneous
+761,Center exhaust pipe replaced,1,miscellaneous
+762,Clutch cable replaced,1,miscellaneous
+763,Clutch start switch replaced,1,miscellaneous
+764,Coil spring(s) replaced,1,miscellaneous
+765,Console replaced,1,miscellaneous
+766,Console shifter trim replaced,1,miscellaneous
+767,Convertible top adjusted,1,miscellaneous
+768,Coolant bypass pipe/hose replaced,1,miscellaneous
+769,Coolant flange replaced,1,miscellaneous
+770,Cowl trim panel replaced,1,miscellaneous
+771,Cranking system serviced,1,miscellaneous
+772,Crankshaft pulley/balancer replaced,1,miscellaneous
+773,Cruise control switch replaced,1,miscellaneous
+774,Dash switches checked,1,miscellaneous
+775,Dash trim panel replaced/repaired,1,miscellaneous
+776,Daytime running lights checked,1,miscellaneous
+777,Deck/tailgate lock actuator replaced,1,miscellaneous
+778,Differential cover resealed,1,miscellaneous
+779,Differential replaced,1,miscellaneous
+780,Differential seal(s) replaced,1,miscellaneous
+781,Dipstick replaced,1,miscellaneous
+782,Distributor cap replaced,1,miscellaneous
+783,Dome light bulb replaced,1,miscellaneous
+784,Door check replaced,1,miscellaneous
+785,Door glass adjusted,1,miscellaneous
+786,Door glass replaced,1,miscellaneous
+787,Door hinge replaced,1,miscellaneous
+788,Door jamb switch replaced,1,miscellaneous
+789,Drive belt idler pulley replaced,1,miscellaneous
+790,DVD player installed,1,miscellaneous
+791,Electrical sys. serviced,1,miscellaneous
+792,Electrical system serviced,1,miscellaneous
+793,Emissions system hose/pipe replaced,1,miscellaneous
+794,Encoder motor replaced,1,miscellaneous
+795,Engine block heater serviced,1,miscellaneous
+796,Engine harness replaced,1,miscellaneous
+797,Engine idle/timing adjusted,1,miscellaneous
+798,Engine oil filler cap/seal replaced,1,miscellaneous
+799,Engine oil filter adapter replaced,1,miscellaneous
+800,Engine oil pressure checked,1,miscellaneous
+801,Engine replaced,1,miscellaneous
+802,Engine valves adjusted,1,miscellaneous
+803,Evaporator case drain hose replaced,1,miscellaneous
+804,Exhaust fluid serviced,1,miscellaneous
+805,Exterior light(s) repaired,1,miscellaneous
+806,Filler tube/seal replaced,1,miscellaneous
+807,Flywheel resurfaced,1,miscellaneous
+808,Fog light switch replaced,1,miscellaneous
+809,Fog lights installed,1,miscellaneous
+810,Front ABS sensor assembly replaced,1,miscellaneous
+811,Front crankshaft oil seal replaced,1,miscellaneous
+812,Front differential pinion seal replaced,1,miscellaneous
+813,Front door latch striker replaced,1,miscellaneous
+814,Front end mask installed,1,miscellaneous
+815,Front pump seal replaced,1,miscellaneous
+816,Front seat back replaced,1,miscellaneous
+817,Front seat track replaced,1,miscellaneous
+818,Front seatbelt(s) replaced,1,miscellaneous
+819,Front spoiler installed,1,miscellaneous
+820,Front strut bearing(s) replaced,1,miscellaneous
+821,Front turn signal/parking assembly replaced,1,miscellaneous
+822,Fuel filler door actuator replaced,1,miscellaneous
+823,Fuel injection rail seals replaced,1,miscellaneous
+824,Fuel pump relay replaced,1,miscellaneous
+825,Fuel pump/module repaired,1,miscellaneous
+826,Fuel shutoff valve replaced,1,miscellaneous
+827,Fuel system bled,1,miscellaneous
+828,Fuel vent hose/filter replaced,1,miscellaneous
+829,Fusible link replaced,1,miscellaneous
+830,Glove box adjusted,1,miscellaneous
+831,Glove box latch replaced,1,miscellaneous
+832,Glow plug controller replaced,1,miscellaneous
+833,Glow plug system checked,1,miscellaneous
+834,GPS/Navigation module/computer checked,1,miscellaneous
+835,GPS/Navigation module/computer replaced,1,miscellaneous
+836,Hazard light switch replaced,1,miscellaneous
+837,Headlight ballast(s) replaced,1,miscellaneous
+838,Headlight dimmer switch/relay replaced,1,miscellaneous
+839,Headlight switch replaced,1,miscellaneous
+840,Headliner replaced,1,miscellaneous
+841,Headrest replaced/repaired,1,miscellaneous
+842,Heat shield removed,1,miscellaneous
+843,High mount brake light repaired,1,miscellaneous
+844,High voltage battery charged,1,miscellaneous
+845,Hood prop rod replaced,1,miscellaneous
+846,Hood release cable repaired,1,miscellaneous
+847,Hood shocks replaced,1,miscellaneous
+848,Idler arm replaced,1,miscellaneous
+849,Ignition relay replaced,1,miscellaneous
+850,Instrument panel replaced,1,miscellaneous
+851,Intake air tempature sensor replaced,1,miscellaneous
+852,Intake/exhaust valves replaced,1,miscellaneous
+853,Intercooler checked,1,miscellaneous
+854,Interior front pillar trim replaced,1,miscellaneous
+855,Interior light bulb(s) replaced,1,miscellaneous
+856,Lamp assembly replaced,1,miscellaneous
+857,Lane departure camera adjusted,1,miscellaneous
+858,Lane departure camera replaced,1,miscellaneous
+859,Lane departure warning actuator replaced,1,miscellaneous
+860,Left front door lock actuator replaced,1,miscellaneous
+861,Left rear axle replaced,1,miscellaneous
+862,Left seatbelt assembly replaced,1,miscellaneous
+863,Left sunvisor replaced,1,miscellaneous
+864,Left tie rod end replaced,1,miscellaneous
+865,Lens replaced,1,miscellaneous
+866,Liftgate/tailgate support cable(s) replaced,1,miscellaneous
+867,Liftgate/tailgate trim panel replaced/repaired,1,miscellaneous
+868,Lighter replaced/repaired,1,miscellaneous
+869,MAP sensor replaced,1,miscellaneous
+870,Marker lamp assembly replaced,1,miscellaneous
+871,Mirror(s) repaired,1,miscellaneous
+872,Multiplex control unit checked,1,miscellaneous
+873,Neutral safety/start switch replaced,1,miscellaneous
+874,Odometer reported as 133,1,miscellaneous
+875,Odometer reported as 23,1,miscellaneous
+876,Odometer reported as 50 kilometers,1,miscellaneous
+877,Odometer reported as 60 kilometers,1,miscellaneous
+878,Oil cooler line(s) replaced/repaired,1,miscellaneous
+879,Oil cooler seal(s) replaced,1,miscellaneous
+880,Oil filter adapter seal replaced,1,miscellaneous
+881,Oil level sensor replaced,1,miscellaneous
+882,Oil line/hose replaced,1,miscellaneous
+883,OnStar installed/upgraded,1,miscellaneous
+884,Outside door handle replaced,1,miscellaneous
+885,Outside mirror switch replaced,1,miscellaneous
+886,Parking brake control replaced,1,miscellaneous
+887,Piston rod bearings replaced,1,miscellaneous
+888,Piston rod(s) replaced,1,miscellaneous
+889,Pitman arm replaced,1,miscellaneous
+890,Power seat checked/repaired,1,miscellaneous
+891,Radio removed,1,miscellaneous
+892,Rear ABS sensor assembly replaced,1,miscellaneous
+893,Rear ashtray replaced,1,miscellaneous
+894,Rear axle oil seal replaced,1,miscellaneous
+895,Rear brake hose(s) replaced,1,miscellaneous
+896,Rear coil spring(s) replaced,1,miscellaneous
+897,Rear differential replaced,1,miscellaneous
+898,Rear door latch replaced,1,miscellaneous
+899,Rear door molding replaced,1,miscellaneous
+900,Rear seat cushion replaced,1,miscellaneous
+901,Rear seatbelt assembly replaced,1,miscellaneous
+902,Rear spring(s) replaced,1,miscellaneous
+903,Rear suspension checked,1,miscellaneous
+904,Rear wheel bearing seal replaced,1,miscellaneous
+905,Rear window run channel replaced/repaired,1,miscellaneous
+906,Relay replaced,1,miscellaneous
+907,Reverse light switch replaced,1,miscellaneous
+908,Right axle replaced,1,miscellaneous
+909,Right front seatbelt buckle replaced,1,miscellaneous
+910,Roof molding replaced,1,miscellaneous
+911,Roof rack/luggage rack repaired,1,miscellaneous
+912,Seatbelt retractor replaced,1,miscellaneous
+913,Seatbelt(s) repaired,1,miscellaneous
+914,Shift interlock cable/linkage replaced,1,miscellaneous
+915,Shift interlock system checked,1,miscellaneous
+916,Shift linkage repaired,1,miscellaneous
+917,Shifter cables adjusted,1,miscellaneous
+918,Short block replaced,1,miscellaneous
+919,Side airbag sensors replaced,1,miscellaneous
+920,Sliding door adjusted,1,miscellaneous
+921,Spare tire remounted,1,miscellaneous
+922,Starter relay replaced,1,miscellaneous
+923,Steering knuckle(s) replaced,1,miscellaneous
+924,Steering lock replaced,1,miscellaneous
+925,Steering system serviced,1,miscellaneous
+926,Steering wheel pad replaced,1,miscellaneous
+927,Strut mount(s) replaced,1,miscellaneous
+928,Sunroof adjusted,1,miscellaneous
+929,Sunroof frame replaced,1,miscellaneous
+930,Sunroof motor replaced,1,miscellaneous
+931,Sunroof visor/deflector installed,1,miscellaneous
+932,Sunroof weatherstrip replaced,1,miscellaneous
+933,Tail light lens resealed,1,miscellaneous
+934,Tailgate handle replaced,1,miscellaneous
+935,Tailgate/hatch glass repaired,1,miscellaneous
+936,Timing belt tensioner/idler replaced,1,miscellaneous
+937,Torsion bar adjusted,1,miscellaneous
+938,Transfer case motor replaced,1,miscellaneous
+939,Transfer case seal(s) replaced,1,miscellaneous
+940,Transmission cable adjusted,1,miscellaneous
+941,Transmission range sensor checked,1,miscellaneous
+942,Transmission range switch replaced,1,miscellaneous
+943,Transmission rebuilt,1,miscellaneous
+944,Truck lift gate serviced,1,miscellaneous
+945,Trunk lid support(s) replaced,1,miscellaneous
+946,Trunk weatherstrip replaced,1,miscellaneous
+947,Turbocharger checked,1,miscellaneous
+948,Turbocharger replaced/repaired,1,miscellaneous
+949,Turn signal(s) repaired,1,miscellaneous
+950,Turn signal/hazard flasher replaced,1,miscellaneous
+951,Vacuum hose(s) repaired,1,miscellaneous
+952,Vacuum system checked,1,miscellaneous
+953,Valve lifters replaced,1,miscellaneous
+954,Voltage regulator replaced,1,miscellaneous
+955,Washer fluid reservoir cap replaced,1,miscellaneous
+956,Washer nozzle(s) adjusted/repaired,1,miscellaneous
+957,Washer pump module replaced,1,miscellaneous
+958,Water pump gasket replaced,1,miscellaneous
+959,Water separator replaced,1,miscellaneous
+960,Weatherstrip replaced,1,miscellaneous
+961,Wheel bearings adjusted,1,miscellaneous
+962,Window molding replaced,1,miscellaneous
+963,Window regulator(s) repaired,1,miscellaneous
+964,Windshield molding replaced,1,miscellaneous
+965,Wipers/washers repaired,1,miscellaneous

@@ -1,0 +1,197 @@
+---
+title: "Final Project"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+
+car_data = read.csv("/Users/ray/Downloads/car_data.csv")
+
+car_data %>% head()
+car_data %>% structure()
+car_data %>% summary()
+
+car_data <-transform(car_data, odo_reading = as.numeric(odo_reading)) %>% suppressWarnings()
+car_data <- car_data %>% rename(mileage = odo_reading)
+car_data <- transform(car_data, price = parse_number(price, na = c("", "NA", "Call for Price",  "Request Quote")))
+car_data <- car_data %>% rename(year = model_year)
+car_data$vin <- trimws(car_data$vin, which = c("both")) # leading and trailing
+
+possible_services <- car_data %>% 
+    separate_rows(services, sep = "\\|") %>% 
+    select(services) %>% 
+    unique() %>% 
+    subset(services != "" )
+
+pop_n_cat <- car_data %>% 
+    separate_rows(services, sep = "\\|") %>% 
+    select(services) %>% 
+    subset(services != "" ) %>% 
+    count(services) %>% 
+    arrange(desc(n))
+pop_n_cat
+
+car_data %>% 
+    select(make) %>% 
+    count(make) %>% 
+    arrange(desc(n)) %>% 
+    subset(make != "" )
+
+car_data %>% 
+    select(make, model) %>% 
+    count(make, model) %>% 
+    arrange(desc(n)) %>% 
+    subset(make != "" & model != "")
+
+car_data %>% 
+    select(make, model, year) %>% 
+    count(make, model, year) %>% 
+    arrange(desc(n)) %>% 
+    subset(make != "" & model != "" & year != "")
+
+car_data %>% 
+    group_by(make) %>%
+    summarize(make, average_mileage = mean(mileage, na.rm = TRUE)) %>%
+    arrange(desc(average_mileage)) %>%
+    distinct()
+
+car_data %>% 
+    group_by(make,model) %>%
+    summarize(make, model, average_mileage = mean(mileage, na.rm = TRUE)) %>%
+    arrange(desc(average_mileage)) %>%
+    distinct()
+
+car_data %>% 
+    group_by(make,model, year) %>%
+    summarize(make, model, year, average_mileage = mean(mileage, na.rm = TRUE)) %>%
+    arrange(desc(average_mileage)) %>%
+    distinct()
+
+if(FALSE){
+    inspection <- c("engine oil checked")
+    maintenance <- c("engine old changed")
+    assessment <- c("engine checked")
+    repair <- c("engine replaced")
+    detail <- c("car detailed")
+    
+    pop_n_cat %>% 
+        rename(populairty = n) %>%
+        mutate(
+            category = ifelse(pop_n_cat$services %in% repair, "repair",
+                              ifelse(pop_n_cat$services %in% detail, "detail", 
+                                     ifelse(pop_n_cat$services %in% rep_asmnt, "assessment",
+                                            ifelse(pop_n_cat$services %in% mntnc_serv, "maintenance",
+                                                   ifelse(pop_n_cat$services %in% insp_serv, "inspection", "miscellaneous")))))) %>% 
+        write.csv("/Users/ray/Downloads/serv_pop_n_cat.csv")
+}
+
+pop_n_cat <- read.csv("/Users/ray/Downloads/serv_pop_n_cat.csv")
+
+maintenance <- (pop_n_cat %>% subset(category == "maintenance"))[["services"]]
+repair <- as.vector(pop_n_cat %>% subset(category == "repair"))[["services"]]
+assessment <- as.vector(pop_n_cat %>% subset(category == "assesment"))[["services"]]
+inspection <- as.vector(pop_n_cat %>% subset(category == "inspection"))[["services"]]
+detail <- as.vector(pop_n_cat %>% subset(category == "detail"))[["services"]]
+miscellaneous <- as.vector(pop_n_cat %>% subset(category == "miscellaneous"))[["services"]]
+
+miscellaneous %>% head(20)
+inspection %>% head(20)
+
+if(FALSE){
+    # an attempt at the vectorization of the string search with extremely high memory usage
+    # use at your won risk
+    new = rep(car_data[["services"]], length(car_data[["services"]]))
+    intermediate_count <- sum(str_count(new, maintenance))
+    maintenance_count <- rowSums(itermediate_count)
+}else{
+    index = 1
+    maintenance_count = numeric()
+    repair_count = numeric()
+    assessment_count = numeric()
+    inspection_count = numeric()
+    detail_count = numeric()
+    #   miscellaneous_count = numceric() # = vector("character")
+    for(service in car_data[["services"]]){
+        maintenance_count   <- maintenance_count       %>% append(sum(str_count(service, maintenance)))
+        repair_count        <-              append(repair_count, sum(str_count(service, repair)))
+        assessment_count    <- assessment_count        %>% append(sum(str_count(service, assessment)))
+        inspection_count    <- inspection_count        %>% append(sum(str_count(service, inspection)))
+        detail_count        <- detail_count            %>% append(sum(str_count(service, detail)))
+        #miscellaneous_count <- miscellaneous_count     %>% append(sum(str_count(service, miscellaneous)))
+    }
+}
+
+car_data <- cbind(car_data, maintenance_count, repair_count, assessment_count, inspection_count, detail_count)
+
+typeof(car_data$mileage)
+typeof(car_data$repair_count)
+
+car_data <- car_data %>% mutate(repairs_per_1kmile = (repair_count / (mileage/1000)))
+car_data <- car_data %>% mutate(maintenance_per_1kmile = (maintenance_count / (mileage/1000)))
+car_data <- car_data %>% mutate(detail_per_1kmile = (detail_count / (mileage/1000)))
+
+car_data %>% head(50)
+
+most_reliable <- car_data %>% 
+    subset(mileage > 25000 & repair_count > 0 & maintenance_count > 0 & maintenance_per_1kmile > 0.5) %>%
+    group_by(make, model, year) %>%
+    summarize(make, 
+              model,
+              year,
+              avg_repairs_per_1kmile = mean(repairs_per_1kmile, na.rm = TRUE),
+              avg_maintenance_per_1kmile = mean(maintenance_per_1kmile, na.rm = TRUE),
+              avg_detail_per_1kmile = mean(detail_per_1kmile, na.rm = TRUE)) %>%
+    arrange(avg_repairs_per_1kmile) %>%
+    subset(avg_repairs_per_1kmile > 0) %>%
+    distinct()
+
+most_reliable %>% head(30)
+car_data %>% head(30)
+
+car_data <- car_data %>% subset(!is.na(mileage) & !is.na(price) & price != 0 & mileage != 0)
+
+library(plyr)
+models <- dlply(car_data, c("make","model","year"), function(df) lm(price ~ mileage, data = df))
+
+coefficient = vector()
+intercept = vector()
+for( i in 1:length(models) ){
+    coefficient <- coefficient %>% append(models[[i]][["coefficients"]][[2]])
+    intercept <- intercept %>% append(models[[i]][["coefficients"]][[1]])
+}
+coefficients = cbind(coefficient, intercept)
+
+names <- names(models)
+make <- vector()
+model <- vector()
+year <- vector()
+for(name in names){
+    make <- make %>% append(strsplit(name, "[.]")[[1]][1])
+    model <- model %>% append(strsplit(name, "[.]")[[1]][2])
+    year <- year %>% append(strsplit(name, "[.]")[[1]][3])
+}
+new_names <- cbind(make, model, year)
+
+coefficients <- cbind(coefficients, new_names)
+coefficients
+number_of_samples <- count(car_data, c("make","model","year"))
+
+depreciation <- cbind(car_data %>% 
+                          group_by(make, model, year) %>% 
+                          summarize(make, model, year) %>% 
+                          distinct(),
+                      coefficients,
+                      number_of_samples)
+
+depreciation <- car_data %>% 
+                          group_by(make, model, year) %>% 
+                          summarize(make, model, year) %>% 
+                          distinct() %>%
+    merge(coefficients, by=c("make","model", "year")) %>% 
+    merge(number_of_samples, by=c("make","model", "year"))
+
+depreciation
+depreciation %>% subset(freq > 10) %>% arrange(as.numeric(coefficient))
+
+```
