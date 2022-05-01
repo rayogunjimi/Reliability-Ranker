@@ -143,6 +143,9 @@ def main():
 
     #print(driver.current_url())
     #driver.save_screenshot('screenshot.png')
+    
+    print("Please spolve CAPTCHA.")
+    waiter(20, 30)
 
     print("Collecting VINs.")
     iterate_makes()
