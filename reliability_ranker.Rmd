@@ -26,7 +26,7 @@ pop_n_cat_of_place <- car_data %>%
     subset(service_locations != "" )
 
 pop_n_cat_of_place <- pop_n_cat_of_place %>%
-    subset( !(possible_services %in% pop_n_cat_of_place$service_locations) )
+    subset(grepl(".", pop_n_cat_of_place$service_locations, fixed=TRUE))
 
 pop_n_cat_of_place <- pop_n_cat_of_place %>%
     count(pop_n_cat_of_place$service_locations) %>% 
