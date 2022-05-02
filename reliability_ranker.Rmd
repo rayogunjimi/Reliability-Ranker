@@ -18,6 +18,22 @@ car_data <- transform(car_data, price = parse_number(price, na = c("", "NA", "Ca
 car_data <- car_data %>% rename(year = model_year)
 car_data$vin <- trimws(car_data$vin, which = c("both")) # leading and trailing
 
+################################################################################
+# BROKEN: find most popular service locations
+pop_n_cat_of_place <- car_data %>% 
+    separate_rows(service_locations, sep = "\\|") %>% 
+    select(service_locations) %>% 
+    subset(service_locations != "" )
+
+pop_n_cat_of_place <- pop_n_cat_of_place %>%
+    subset( !(possible_services %in% pop_n_cat_of_place$service_locations) )
+
+pop_n_cat_of_place <- pop_n_cat_of_place %>%
+    count(pop_n_cat_of_place$service_locations) %>% 
+    arrange(desc(as.numeric(n)))
+pop_n_cat_of_place
+################################################################################
+
 possible_services <- car_data %>% 
     separate_rows(services, sep = "\\|") %>% 
     select(services) %>% 
