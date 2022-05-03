@@ -155,7 +155,7 @@ def main():
     print(driver.current_url)
     driver.save_screenshot(path + '/screenshot.png')
 
-    load_cookies()
+    #load_cookies()
 
     car_file = open(path + "/car_data.csv","w")
     car_file.write("vin,make,model,model_year,series,trim,type,plant_country,body_class,num_of_doors,curb_weight,"+
